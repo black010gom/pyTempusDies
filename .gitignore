@@ -1,0 +1,27 @@
+# ---- VSCode 관련 ----
+.vscode/                # VSCode 설정 폴더 (개인 환경에 따라 달라질 수 있음)
+
+# ---- Python 관련 ----
+__pycache__/            # 파이썬 캐시 파일
+*.pyc                   # 컴파일된 파이썬 바이트코드
+*.pyo
+*.pyd
+*.env                   # 환경 변수 파일 (있다면)
+*.log                   # 로그 파일
+
+# ---- Kivy 관련 ----
+*.kv~                   # Kivy 임시 파일 (편집 중 생성될 수 있음)
+
+# ---- C / C++ 관련 ----
+*.o                     # 오브젝트 파일
+*.obj
+*.exe                   # 실행 파일 (Windows)
+*.out                   # 실행 파일 (Linux/Unix)
+*.dll                   # 동적 라이브러리 (Windows)
+*.so                    # 공유 라이브러리 (Linux)
+*.a                     # 정적 라이브러리 (Linux)
+*.lib                   # 정적 라이브러리 (Windows)
+
+# ---- 빌드/배포 관련 ----
+build/                  # 빌드 디렉토리
+dist/                   # 배포 디렉토리
